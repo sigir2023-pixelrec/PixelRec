@@ -2,7 +2,7 @@
 
 
 # Dataset
-**Kindly note that collecting data and running these experiments cost us a lot of money. Our lead suggested us to release a sample of 1000 images per dataset before acceptance. If reviewers want to see the entire datasets or plan to use it now for their research, we are more than happy to provide full datasets. Feel free to inform us in the rebuttal stage.**
+
 
 Download link: coming soon
 

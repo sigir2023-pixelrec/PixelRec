@@ -1,5 +1,4 @@
-# PixelRec: A Large-Scale Video Cover Dataset for Image
-Recommendation
+# PixelRec: A Large-Scale Video Cover Dataset for Image Recommendation
 
 
 # Dataset

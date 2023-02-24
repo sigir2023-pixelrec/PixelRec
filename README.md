@@ -1,27 +1,42 @@
 # PixelRec: A Large-Scale Video Cover Dataset for Image Recommendation
 
 
+
 # Dataset
+
+
 
 ### Interaction Data
 
-Download link: https://sandbox.zenodo.org/record/1166723
+Interactions can be downloaded from https://sandbox.zenodo.org/record/1166723, containing **Pixel200K**, **Pixel1M**, **Pixel8M** and **PixelRec**.
 
 ### Item Information Data
 
-
+See  `dataset/item_info.csv` 
 
 ### Image Data
 
-It will take us one week or two to make all the images public, here we first provide a sample dataset containing 10,000 images:
+It will take us one week or two to make all the images public, here we first provide images used in **Pixel200K**, containing 96,282 images, they can be downloaded via (coming soon) 
 
-Download link: coming soon
+The download link of all the images: coming soon.
 
-We also provide an auto-downloader to make each image easy to download and available permanently. 
+
+
+We also provide image urls and an auto-downloader to permanently access and download related image data.  
+
+
+
+The downloader: coming soon.
+
+
+
+**!!! Please kindly note that the images we now provide are watermarked and the texts are randomly shuffled, we will  recover them after acceptance. ** 
 
 
 
 # Experiments
+
+
 
 ## Environments
 
@@ -30,6 +45,8 @@ Pytorch==1.12.1
 cudatoolkit==11.2.1
 python==3.9.12
 ```
+
+
 
 ## Run Baselines
 
@@ -76,8 +93,6 @@ Change  `PixelNet/sasrec.yaml` to run other PixelNet baselines with `ViT` as ite
 
 
 Note: you may need to modify some path in files under folders `ViNet` and `overall` and file `generate_lmdb.py` , depending on where you put the downloaded data.
-
-## Hyper Parameters
 
 
 

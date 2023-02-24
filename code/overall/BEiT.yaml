@@ -14,7 +14,7 @@ data_path: ../dataset/                       # dataset path
 dataset: Pixel200K                        # dataset name
 image_path: ../dataset/image.lmdb            # lmdb path
 
-encoder_name: 'clip-vit-base-patch32'
+encoder_name: 'beit-base-patch16'
 encoder_source: 'transformers'
 
 
@@ -23,12 +23,13 @@ encoder_source: 'transformers'
 epochs: 200
 train_batch_size: 16           
 fine_tune_arg: {
-    tune_scale: 165, 
+    tune_scale: 183, 
     pre_trained: True,
     activation: 'relu',
     dnn_layers: [],
-    method: 'mean'                        
+    method: 'cls'                        
 }
+
 
 optim_args: {
     modal_lr: 0.0001,

@@ -41,11 +41,15 @@ The downloader: coming soon.
 ## Environments
 
 ```
-Pytorch==1.12.1
+Pytorch==1.10.2
 cudatoolkit==11.2.1
-python==3.9.12
+python==3.9.7
 ```
 
+See requirements.txt for other packages:
+```python
+pip install -r requirements.txt
+```
 
 
 ## Run Baselines

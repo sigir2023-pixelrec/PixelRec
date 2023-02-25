@@ -6,6 +6,8 @@ import pandas as pd
 import pickle
 import tqdm
 import torch
+import torchvision.transforms as transforms
+
 torch.manual_seed(123456)
 '''
 bulid lmdb database from images.
@@ -44,14 +46,16 @@ if __name__ == '__main__':
 
 
     bad_file = {}
-
+    t = transforms.Resize((224,224))     
     lmdb_keys = []
     for index, row in enumerate(tqdm.tqdm(items)):
         item_id = str(row)
         item_name = str(row)+ '.jpg'
         lmdb_keys.append(item_id)
         try:
-            img = np.array(Image.open(os.path.join(image_path, item_name)).convert('RGB'))
+            img = Image.open(os.path.join(image_path, item_name)).convert('RGB')
+            img = t(img)  #resize the image to (3,224,224) before stored into database,you can remove this if you don't need it.
+            img = np.array(img)
             temp = LMDB_Image(img, item_id)
             txn.put(u'{}'.format(item_id).encode('ascii'), pickle.dumps(temp))
             if index % write_frequency == 0 and index != 0:

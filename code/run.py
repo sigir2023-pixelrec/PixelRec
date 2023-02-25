@@ -13,9 +13,7 @@ import argparse
 import torch.distributed as dist
 import torch
 from REC.data import LMDB_Image
-# os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# os.environ["OMP_NUM_THREADS"] = '1'
-# os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+
 
 def run_loop(local_rank,config_file=None,saved=True):
 
@@ -24,11 +22,7 @@ def run_loop(local_rank,config_file=None,saved=True):
             
     device = torch.device("cuda", local_rank)
     config['device'] = device
-    
-    
-    config['epochs'] = 1
-    
-    
+       
     init_seed(config['seed'], config['reproducibility'])
     
     # logger initialization

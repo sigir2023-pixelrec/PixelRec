@@ -30,7 +30,7 @@ The downloader: coming soon.
 
 
 
-**!!! Please kindly note that the images we now provide are watermarked and the texts are randomly shuffled, we will  recover them after acceptance. ** 
+**!!! Please kindly note that the images we now provide are watermarked and the texts are truncated and randomly shuffled, we will  recover them after acceptance.** 
 
 
 
@@ -88,7 +88,7 @@ To run ViNet, e.g. run `VBPR` model on one card:
 python main.py --device 0 --config_file ViNet/vbpr.yaml
 ```
 
-Change  `PixelNet/sasrec.yaml` to run other PixelNet baselines with `ViT` as item encoder,  change  `overall/ViT.yaml` to run `sasrec` model with other image encoders.
+Change  `ViNet/vbpr.yaml` to run other ViNet
 
 
 

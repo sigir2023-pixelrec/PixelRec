@@ -16,7 +16,7 @@ See  `dataset/item_info.csv`
 
 ### Image Data
 
-It will take us one week or two to make all the images public, here we first provide images used in **Pixel200K**, containing 96,282 images, they can be downloaded via (coming soon) 
+It will take us one week or two to make all the images public, here we first provide images used in **Pixel200K**, containing 96,282 images, they can be downloaded via https://sandbox.zenodo.org/record/1167935#.Y_rvqnZByUk 
 
 The download link of all the images: coming soon.
 

@@ -30,9 +30,9 @@ The downloader: coming soon.
 
 
 
-**!!! Please kindly note that the images we now provide are watermarked and the texts are truncated and randomly shuffled, we will  recover them after acceptance.** 
+**Please note that the images we provide now are all watermarked and the text is truncated and randomly shuffled, we will restore them upon acceptance.** 
 
-
+PixelRec's raw images take up more than **100G** of storage space.
 
 # Experiments
 

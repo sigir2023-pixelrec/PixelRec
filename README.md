@@ -20,7 +20,7 @@ It will take us one week or two to make all the images public, here we first pro
 
 The download link of all the images: coming soon.
 
-
+(PixelRec's raw images take up more than **100G** of storage space.)
 
 We also provide image urls and an auto-downloader to permanently access and download related image data.  
 
@@ -32,7 +32,7 @@ The downloader: coming soon.
 
 **Please note that the images we provide now are all watermarked and the text is truncated and randomly shuffled, we will restore them upon acceptance.** 
 
-PixelRec's raw images take up more than **100G** of storage space.
+
 
 # Experiments
 

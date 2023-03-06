@@ -13,19 +13,20 @@ Interactions can be downloaded from https://sandbox.zenodo.org/record/1166723, c
 ### Item Information Data
 
 See  `dataset/item_info.csv`.
- 
+
 **Please note that the text is truncated and randomly shuffled, we will restore them upon acceptance.** 
 
 ### Image Data
 
-PixelRec's raw images will take up more than **100G** of storage space, here we first provide images used in **Pixel200K**, containing 96,282 images, they can be downloaded via https://sandbox.zenodo.org/record/1167935#.Y_rvqnZByUk. 
+The original pictures of PixelRec will occupy more than 100G of storage space. Here we first provide the pictures used in Pixel200K, including 96282 pictures, which can be downloaded through https://sandbox.zenodo.org/record/1167935#.Y_rvqnZByUk.
 
-(It might take a long time to download these images, you can run the downloader to get access to 1000 sample images quickly, see `downloader/pixelrec_downloader.exe`.)
+Downloading these images can take a long time, you can run the downloader to quickly get 1000 sample images, see `downloader/pixelrec_downloader.exe`.
 
+**Please note that the images we provide now are all watermarked, we will restore them upon acceptance.**
 
 We will provide all the images urls (408,374 images in total) and an auto-downloader to permanently access and download related image data, the downloader for all images（100G）will be available once paper is accepted.  
 
-**Please note that the images we provide now are all watermarked, we will restore them upon acceptance.** 
+ 
 
 
 # Experiments

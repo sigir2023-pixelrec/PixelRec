@@ -3,6 +3,6 @@ The item_info.csv contains item features in Pixel200K:
 | ------: | ----------: | -------------: | -------------: | -----------: | ----------: | --------------: | -------------: | ---: | ----------: | --------: |
 |  物品id |      浏览量 |         评论数 |         点赞数 |       分享量 |      投币数 |          收藏量 |   弹幕数 |    标题 |        描述 | 标签 |
 
-The entire item information data will be available soon.
+The entire item information data will be available once paper is accepted
 
 Please note the title and description of items are truncated and randomly shuffled, we will restore them upon acceptance.

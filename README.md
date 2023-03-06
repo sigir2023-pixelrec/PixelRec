@@ -12,7 +12,8 @@ Interactions can be downloaded from https://sandbox.zenodo.org/record/1166723, c
 
 ### Item Information Data
 
-See  `dataset/item_info.csv` 
+See  `dataset/item_info.csv`.
+ 
 **Please note that the text is truncated and randomly shuffled, we will restore them upon acceptance.** 
 
 ### Image Data
